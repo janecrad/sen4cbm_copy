@@ -1,0 +1,44 @@
+{
+    "set": {
+        "user": "",
+        "email": "",
+        "institution": "",
+        "update_check": "True",
+        "member_state": "",
+        "polygon": "",
+        "data_source": "api",
+        "db_conn": "main",
+        "dataset": "default_2020",
+        "ds_year": "2020",
+        "jupyterlab": "True",
+        "plimit": "25",
+        "git_url": "https://github.com/ec-jrc/cbm"
+    },
+    "paths": {
+        "data": "data",
+        "temp": "temp"
+    },
+    "api": {
+        "url": "http://0.0.0.0",
+        "user": "",
+        "pass": ""
+    },
+    "db": {
+        "main": {
+            "description": "Main db",
+            "host": "192.168.0.6",
+            "port": "5433",
+            "name": "postgres",
+            "schema": "public",
+            "user": "postgres",
+            "pass": "postgres"
+        }
+    },
+    "s3": {
+        "dias": "",
+        "host": "http://",
+        "bucket": "DIAS",
+        "access_key": "",
+        "secret_key": ""
+    }
+}

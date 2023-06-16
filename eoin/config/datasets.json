@@ -1,0 +1,106 @@
+{
+    "outreach_29upu_2020": {
+        "db": "main",
+        "description": "Outreach Parcels Testing",
+        "center": "51.0,14.0",
+        "zoom": "5",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": "2021-01-01",
+        "extent": "",
+        "flip_coordinates": "False",
+        "tables": {
+            "parcels": "outreach_29upu",
+            "dias_catalog": "dias_cat",
+            "scl": "hists",
+            "s2": "s2_sig",
+            "bs": "bs_sig",
+            "c6": "c6_sig",
+            "bs_tf": "bs_ten"
+        },
+        "pcolumns": {
+            "parcel_id": "pseudo_id",
+            "crop_name": "cropclaime",
+            "crop_code": "crop_code"
+        }
+    },
+
+    "greening_2020": {
+        "db": "main",
+        "description": "Greening Parcels",
+        "center": "51.0,14.0",
+        "zoom": "5",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": "2021-01-01",
+        "extent": "",
+        "flip_coordinates": "False",
+        "tables": {
+            "parcels": "greening_new",
+            "dias_catalog": "dias_cat",
+            "scl": "hists",
+            "s2": "s2_sig",
+            "bs": "bs_sig",
+            "c6": "c6_sig",
+            "bs_tf": "bs_ten"
+        },
+        "pcolumns": {
+            "parcel_id": "new_id",
+            "crop_name": "cropclaime",
+            "crop_code": "type"
+        }
+    },
+
+    "abandonedland_2021": {
+        "db": "main",
+        "description": "Abandoned Land Test Parcels",
+        "center": "51.0,14.0",
+        "zoom": "5",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": "2021-01-01",
+        "extent": "",
+        "flip_coordinates": "False",
+        "tables": {
+            "parcels": "abandoned_land_parcels_2021",
+            "dias_catalog": "dias_cat",
+            "scl": "hists",
+            "s2": "s2_sig",
+            "bs": "bs_sig",
+            "c6": "c6_sig",
+            "bs_tf": "bs_ten"
+        },
+        "pcolumns": {
+            "parcel_id": "new_id",
+            "crop_name": "cropclaime",
+            "crop_code": "crop_code"
+        }
+    },
+
+    "transects_2020": {
+        "db": "main",
+        "description": "Transects 2020 Parcels",
+        "center": "51.0,14.0",
+        "zoom": "5",
+        "year": "2020",
+        "start_date": "2020-01-01",
+        "end_date": "2021-01-01",
+        "extent": "",
+        "flip_coordinates": "False",
+        "tables": {
+            "parcels": "transects_all_2020",
+            "logs": "transects_all_2020_activity_logs",
+            "dias_catalog": "dias_cat",
+            "scl": "hists",
+            "s2": "s2_sig",
+            "bs": "bs_sig",
+            "c6": "c6_sig",
+            "bs_tf": "bs_ten"
+        },
+        "pcolumns": {
+            "parcel_id": "new_id",
+            "crop_name": "cropclaim",
+            "crop_code": "cropcode"
+        }
+    }
+}

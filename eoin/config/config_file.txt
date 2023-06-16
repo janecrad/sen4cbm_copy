@@ -1,0 +1,13 @@
+# CreoDias credentials
+username: xxx
+password: xxx
+
+# External software path
+GDAL_DIR: /usr/local/bin
+GPT_DIR: /usr/local/snap/bin
+
+# Posgres config file
+PG_config: config/main.json
+
+# Dataset config file
+DS_config: config/datasets.json
