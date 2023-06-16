@@ -1,0 +1,10 @@
+# CreoDias credentials
+username: andrea.melchiorre@agriculture.gov.ie
+password: boeing737
+
+# External software path
+GDAL_DIR: /usr/local/bin
+GPT_DIR: /usr/local/snap/bin
+
+# Posgres config file
+PG_config: config/main.json
